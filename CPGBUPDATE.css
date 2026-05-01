@@ -1,0 +1,221 @@
+body{
+    
+    background-image: linear-gradient(#fffae0,#ffffff);
+    margin: 10%;
+}
+section{
+    background-color: #faf5dd;
+    border-style: solid;
+    border-color: #f7ecbb;
+    color: #00003a;
+    margin: 5%;
+    padding: 5%;
+}
+h1{
+    font-size: 1.75em;
+    color: #00003a;
+    font-family: Momo Trust Display;
+}
+h2{
+    font-size: 1.5em;
+    color: #00003a !important;
+    font-family: Momo Trust Display;
+    text-decoration: underline;
+}
+h3{
+    color: #00003a !important;
+}
+@font-face{
+    font-family: 'CBGBFont';
+    src: url(fonts/CBGBFontSolid.ttf) format(ttf);
+    font-weight: normal;
+    font-style: solid;
+}
+header{
+    font-size: 3em;
+    font-family: 'CBGBFont', 'Monoton';
+    color: #00003a;
+    text-align: center;
+}
+p{
+    font-size: 1.25em;
+    font-family: 'Montserrat', sans-serif;
+    color: #00003a !important;
+    text-align: left;
+}
+p1{
+    font-weight: bold;
+    font-size: 1.25em;
+    font-family: 'Montserrat', sans-serif;
+}
+#banner{
+    max-width: 100%;
+    width: 100%;
+    height: 60%;
+}
+#logo{
+    border-style: none;
+    display: block;
+    margin: 0 auto;
+}
+img{
+    max-width: 600px;
+    max-height: 600px;
+    height: 50% ;
+    width: 50%;
+    border-style: solid;
+    border-color: #f7ecbb;
+}
+#map{
+    border-style: solid;
+    border-color: #f7ecbb;
+    max-width: 100%;
+    max-height: 500px;
+    margin-bottom: 5%;
+}
+#info{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    height: 40%;
+    width: 40%;
+    text-align: left ;
+    border-style: solid;
+    border-color: #f7ecbb;
+    background-color: #f8f7f0;
+    padding: 3rem;
+}
+#info2{
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: fit-content;
+    width: fit-content;
+    border-style: solid;
+    border-color: #f7ecbb;
+    background-color: #f8f7f0;
+    text-align: left;
+    padding: 4rem;
+}
+#info3{
+    text-align: center;
+    height: fit-content;
+    width: 50%;
+    margin: 10% auto;
+    border-style: solid;
+    border-color: #f7ecbb;
+    background-color: #f8f7f0;
+    padding: 3rem;
+}
+#rental{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left ;
+    border-style: solid;
+    border-color: #f7ecbb;
+    background-color: #f8f7f0;
+    padding: 3rem;
+}
+#specials{
+    margin-bottom: 2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: fit-content;
+    border-style: solid;
+    border-color: #f7f3e1;
+    background-color: #f8f7f0;
+    text-align: left;
+    padding: 4rem;
+}
+#wevents{
+    margin-bottom: 2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: fit-content;
+    border-style: solid;
+    border-color: #f7ecbb;
+    background-color: #f8f7f0;
+    text-align: center;
+    padding: 4rem;
+}
+#uevents{
+    margin-bottom: 2rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: solid;
+    border-color: #f7ecbb;
+    background-color: #f8f7f0;
+    text-align: center;
+    padding: 2rem;
+}
+
+#menu-container{
+    max-width: fit-content;
+}
+#menu-container .inner-container{
+    color: #00003a;
+}
+.buttons{
+    text-align: center;
+    word-spacing: 15%;
+    margin-bottom: 4rem;
+}
+button{
+    text-decoration-color: #00003a;
+    border-style: none;
+    background-color: #faf5dd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+#social-links{
+    text-align: center;
+    font-size: 2em;
+    padding-right: 2em;
+}
+a:hover{
+    color: #333370;
+    text-decoration: underline;
+}
+a{
+    color: #00003a;
+    text-decoration: none;
+}
+#newsletter{
+    background-color: #f8f7f0;
+    border-style: solid;
+    border-color: #f7ecbb;
+    padding: 2rem;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 1em;    
+}
+#submit{
+    padding: 0.5rem 1rem;
+    background-color: #252333;
+    color: #fff;
+}
+footer{
+    font-size: 1em;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #00003a;
+    text-align: left;
+}
+
+#storeinfo{
+    display: flex;
+    margin-bottom: 4rem;
+}
+#map-container{
+    display: flex;
+    margin-bottom: 4rem;
+}
+#img-container{
+    display: flex;
+    margin-bottom: 4rem;
+}
+#banner{
+    max-width: 100%;
+}
+
